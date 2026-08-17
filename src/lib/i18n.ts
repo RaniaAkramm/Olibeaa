@@ -20,3 +20,6 @@ export function getPathWithoutLang(path: string): string {
   }
   return path;
 }
+
+export { translations, defaultLanguage, languages };
+export type { Language };
