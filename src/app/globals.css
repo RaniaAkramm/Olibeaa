@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-800;
+  }
+}
+
+/* تحسين للعربية */
+[dir="rtl"] {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+}
