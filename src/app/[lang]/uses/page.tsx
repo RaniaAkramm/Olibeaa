@@ -1,4 +1,3 @@
-// src/app/[lang]/uses/page.tsx
 import { getTranslation } from '@/lib/i18n';
 
 export default async function UsesPage({ params }: { params: { lang: string } }) {
