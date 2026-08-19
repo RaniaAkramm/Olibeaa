@@ -1,6 +1,4 @@
-// src/app/[lang]/page.tsx
 import { getTranslation } from '@/lib/i18n';
-
 export default async function HomePage({
   params,
 }: {
