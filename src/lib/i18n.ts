@@ -1,4 +1,3 @@
-// src/lib/i18n.ts
 import { translations, defaultLanguage, languages, type Language } from './translations';
 
 export function getTranslation(lang: Language) {
