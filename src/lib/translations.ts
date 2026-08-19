@@ -1,4 +1,3 @@
-// src/lib/translations.ts
 export const translations = {
   en: {
     nav: { home: "Home", benefits: "Health Benefits", cultivation: "Cultivation", uses: "Uses", about: "About" },
