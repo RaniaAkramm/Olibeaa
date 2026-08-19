@@ -1,6 +1,4 @@
-// src/components/LanguageSwitcher.tsx
 'use client';
-
 import { useRouter } from 'next/navigation';
 import { languages } from '@/lib/i18n';
 
