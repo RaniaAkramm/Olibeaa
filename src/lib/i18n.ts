@@ -1,7 +1,9 @@
+// src/lib/i18n.ts
 import { translations, defaultLanguage, languages, type Language } from './translations';
 
 export function getTranslation(lang: Language) {
-  return translations[lang] || translations[defaultLanguage];
+  // استخدم `as keyof typeof translations` لضمان أن lang هو مفتاح صحيح
+  return translations[lang as keyof typeof translations] || translations[defaultLanguage];
 }
 
 export function getLanguageFromPath(path: string): Language {
